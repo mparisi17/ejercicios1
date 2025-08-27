@@ -5,6 +5,7 @@
   No comentar la funcion 
 */
 function soloNumeros(array) {
+  return array.filter(element => typeof element === 'number');
   // La funcion llamada 'soloNumeros' recibe como argumento un arreglo de enteros y strings llamado 'array'.
   // Debe devolver un arreglo con solo los enteros.
   // Ej: 
